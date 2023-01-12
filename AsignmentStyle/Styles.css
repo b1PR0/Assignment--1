@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* banner */
+.header {
+    background-image: url(../images/banner/banner3.png);
+    width: 1600px;
+    height: 809px;
+
+}
+
+.banner-title {
+    color: #FFFFFF;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: right;
+    width: 525px;
+    height: 228px;
+    padding-left: 845px;
+    padding-top: 216px;
+
+
+}
+
+.banner-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 494px;
+    height: 78px;
+    margin-left: 876px;
+    margin-top: 24px;
+    text-align: right;
+}
+
+.button-primary {
+    color: #005FAC;
+    background: white;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    margin-left: 1210px;
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border: 0;
+}
+
+/* main */
+.container {
+    margin-left: 206px;
+    padding-top: 131px;
+
+}
+
+.content-flex {
+    margin: 0;
+    display: flex;
+}
+
+.content {
+    padding-top: 300px;
+    width: 500px;
+    padding-left: 100px;
+}
+
+.content-title {
+    color: #151414;
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 20px;
+
+}
+
+.content-description {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 20px;
+    color: #444343;
+}
+
+.checkmark {
+    padding-bottom: 8px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* plans styles */
+.my-plans{
+    padding-left: 200px;
+    padding-bottom: 130px;
+    padding-top: 129.7px ;
+}
+.plan-container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    
+   
+    
+    
+}
+
+.plan-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+    
+}
+
+.plan-name {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 18.4px;
+    padding-bottom: 16px;
+}
+
+.plan-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+
+}
+
+/* blend style */
+.blend-content {
+
+    width: 1140px;
+    height: 300px;
+
+
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+
+    margin-left: 230px;
+    margin-top: 130px;
+    border-radius: 8px;
+}
+
+.blend-title {
+    padding-left: 20px;
+}
+
+.blend-content-title {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 60px;
+}
+
+.button-sec {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    background-color: #FFFFFF;
+    margin-top: 24px;
+
+}
+
+/* footer */
+.footer a{
+    text-decoration: none;
+}
+.footer {
+    margin-top: 130px;
+    display: flex;
+    background-color: #151414;
+    color: #FFFFFF;
+
+}
+
+.footer-title {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.footer-left {
+    color: #FFFFFF;
+    width: 485px;
+    height: 317px;
+    padding-top: 130px;
+    padding-left: 230px;
+}
+
+.footer-description {}
+
+.footer-right {
+    padding-top: 130px;
+    padding-left: 331px;
+    width: 325px;
+    height: 204px;
+
+}
+
+.footer-left-phone {
+    margin-bottom: 32px;
+}
+
+.button-third {
+    background-color: #005FAC;
+    color: #FFFFFF;
+    width: 170.11px;
+    height: 64px;
+    border: 0;
+    border-radius: 8px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: center;
+
+}
+
+.footer-right input {
+    margin-bottom: 16px;
+    border: 0;
+    width: 325px;
+    height: 64px;
+    text-align: left;
+    border-radius: 8px;
+}
